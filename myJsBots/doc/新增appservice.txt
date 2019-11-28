@@ -1,0 +1,1 @@
+az group deployment create --name "BlackCat2" --resource-group "PTC" --template-file "deploymentTemplates/template-with-preexisting-rg.json" --parameters appId="32a55b18-b53d-4743-907d-403f363edcfd" appSecret="BlackCatTester01" botId="BlackCat2" newWebAppName="BlackCatApp" existingAppServicePlan="PTCCatBOT" appServicePlanLocation="centralus"

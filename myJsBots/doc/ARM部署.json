@@ -1,0 +1,78 @@
+{
+  "acceptMappedClaims": null,
+  "addIns": [],
+  "allowGuestsSignIn": null,
+  "allowPassthroughUsers": null,
+  "appId": "32a55b18-b53d-4743-907d-403f363edcfd",
+  "appLogoUrl": null,
+  "appPermissions": null,
+  "appRoles": [],
+  "applicationTemplateId": null,
+  "availableToOtherTenants": true,
+  "deletionTimestamp": null,
+  "displayName": "BlackCat",
+  "errorUrl": null,
+  "groupMembershipClaims": null,
+  "homepage": null,
+  "identifierUris": [],
+  "informationalUrls": {
+    "marketing": null,
+    "privacy": null,
+    "support": null,
+    "termsOfService": null
+  },
+  "isDeviceOnlyAuthSupported": null,
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logo@odata.mediaContentType": "application/json;odata=minimalmetadata; charset=utf-8",
+  "logo@odata.mediaEditLink": "directoryObjects/0f122cda-2052-46aa-a090-40c63077f6b7/Microsoft.DirectoryServices.Application/logo",
+  "logoUrl": null,
+  "logoutUrl": null,
+  "mainLogo@odata.mediaEditLink": "directoryObjects/0f122cda-2052-46aa-a090-40c63077f6b7/Microsoft.DirectoryServices.Application/mainLogo",
+  "oauth2AllowIdTokenImplicitFlow": true,
+  "oauth2AllowImplicitFlow": false,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access BlackCat on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access BlackCat",
+      "id": "68ccb778-f9ed-446f-a61f-7d6cefd85c9f",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the application to access BlackCat on your behalf.",
+      "userConsentDisplayName": "Access BlackCat",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequirePostResponse": false,
+  "objectId": "0f122cda-2052-46aa-a090-40c63077f6b7",
+  "objectType": "Application",
+  "odata.metadata": "https://graph.windows.net/38778733-a70a-4130-ac26-b1c9dabec150/$metadata#directoryObjects/@Element",
+  "odata.type": "Microsoft.DirectoryServices.Application",
+  "optionalClaims": null,
+  "orgRestrictions": [],
+  "parentalControlSettings": {
+    "countriesBlockedForMinors": [],
+    "legalAgeGroupRule": "Allow"
+  },
+  "passwordCredentials": [
+    {
+      "additionalProperties": null,
+      "customKeyIdentifier": null,
+      "endDate": "2020-11-28T08:35:27.903071+00:00",
+      "keyId": "c03d6331-af5f-4abf-9050-6488bcc6b80a",
+      "startDate": "2019-11-28T08:35:27.903071+00:00",
+      "value": null
+    }
+  ],
+  "preAuthorizedApplications": null,
+  "publicClient": null,
+  "publisherDomain": "huangge0513outlook.onmicrosoft.com",
+  "recordConsentConditions": null,
+  "replyUrls": [],
+  "requiredResourceAccess": [],
+  "samlMetadataUrl": null,
+  "signInAudience": "AzureADMultipleOrgs",
+  "tokenEncryptionKeyId": null,
+  "wwwHomepage": null
+}
