@@ -1,1 +1,10 @@
 az group deployment create --name "BlackCat2" --resource-group "PTC" --template-file "deploymentTemplates/template-with-preexisting-rg.json" --parameters appId="32a55b18-b53d-4743-907d-403f363edcfd" appSecret="BlackCatTester01" botId="BlackCat2" newWebAppName="BlackCatApp" existingAppServicePlan="PTCCatBOT" appServicePlanLocation="centralus"
+
+az group deployment create --name "BlackCat2Test" --resource-group "PTC" --template-file "deploymentTemplates/template-with-preexisting-rg.json" --parameters appId="358bce8f-a537-4737-8254-f64d88d6e126" appSecret="BlackCatTester01" botId="BlackCat2Test" newWebAppName="BlackCatAppTest" existingAppServicePlan="PTCCatBOT" appServicePlanLocation="centralus"
+
+//沒用到
+az bot create --kind webapp --resource-group "PTC" --name "BlackCatApp" --appid "32a55b18-b53d-4743-907d-403f363edcfd" --password "BlackCatTester01" --lang Javascript
+
+
+//建立APP
+az ad app create --display-name "BlackCatAppTest" --password "BlackCatTester01" --available-to-other-tenants
