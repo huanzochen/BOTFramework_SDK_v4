@@ -61,3 +61,11 @@ server.post('/api/messages', (req, res) => {
         await myBot.run(context);
     });
 });
+
+// Listen for incoming requests.
+server.post('/api/IIQjX9VcRwp', (req, res) => {
+    adapter.processActivity(req, res, async (context) => {
+        // Route to main dialog.
+        await myBot.run(context);
+    });
+});
