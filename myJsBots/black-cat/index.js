@@ -62,3 +62,20 @@ server.post('/api/messages', (req, res) => {
     });
 });
 
+server.get('/api/messages', (req, res) => {
+    const mode = req.query['hub.mode'];
+    const token = req.query['hub.verify_token'];
+    const challenge = req.query['hub.challenge'];
+  
+    if (mode && token) {
+      if (mode === 'subscribe' && token === VERIFY_TOKEN) {
+        // Responds with the challenge token from the request
+        console.log('WEBHOOK_VERIFIED', challenge);
+        res.status(200);
+        res.end(challenge);
+      } else {
+        res.send(403);
+      }
+    }
+  });
+
