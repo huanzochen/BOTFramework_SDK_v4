@@ -16,6 +16,6 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    cd myJsBots/line-black-cat
+    cd myJsBots/black-cat
     npm install
   displayName: 'npm install'
