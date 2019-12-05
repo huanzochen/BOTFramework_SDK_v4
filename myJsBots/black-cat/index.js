@@ -62,6 +62,7 @@ server.post('/api/messages', (req, res) => {
     });
 });
 
+/*
 server.get('/api/messages', (req, res) => {
     const mode = req.query['hub.mode'];
     const token = req.query['hub.verify_token'];
@@ -78,4 +79,4 @@ server.get('/api/messages', (req, res) => {
       }
     }
   });
-
+*/
